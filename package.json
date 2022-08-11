@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest",
+    "reset": "rm -rf node_modules && rm -rf .next && yarn"
   },
   "dependencies": {
     "@emotion/cache": "latest",
@@ -16,8 +17,9 @@
     "@emotion/styled": "latest",
     "@mui/icons-material": "latest",
     "@mui/material": "latest",
-    "mui-test-lib": "^0.0.5",
-    "next": "^12.2.4-canary.12",
+    "lodash-es": "^4.17.21",
+    "mui-test-lib": "latest",
+    "next": "12.2.4",
     "prop-types": "latest",
     "react": "latest",
     "react-dom": "latest"
