@@ -18,7 +18,7 @@
     "@mui/icons-material": "latest",
     "@mui/material": "latest",
     "lodash-es": "^4.17.21",
-    "mui-test-lib": "latest",
+    "mui-test-lib": "0.0.14",
     "next": "12.2.4",
     "prop-types": "latest",
     "react": "latest",
